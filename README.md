@@ -18,7 +18,7 @@ If you find this code useful in your research then please cite:
 }
 ```
 
-
+![](/Users/yangziyi/Documents/Github/SPLDExtraTrees/Figure1_pipeline.png)
 
 ## Installation
 
@@ -36,7 +36,7 @@ conda env create -f requirements_env.yml
 conda activate SPLDExtraTrees
 ```
 
-test
+
 
 
 
