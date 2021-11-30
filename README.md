@@ -18,7 +18,7 @@ If you find this code useful in your research then please cite:
 }
 ```
 
-![](https://github.com/yangziyi1990/SPLDExtraTrees/blob/main/Figure1_pipeline.png)
+![](https://github.com/yangziyi1990/SPLDExtraTrees/blob/main/Figure/Figure1_pipeline.png)
 
 ## Installation
 
@@ -48,15 +48,5 @@ We provide some notebooks called `S*.ipynb` which contains the analysis performe
 
 `Results_State.ipynb` can plot scatter plots of the experimental versus calculated $\Delta\Delta$G values.
 
-
-
-
-
-
-
-
-
-
-
-
+![](https://github.com/yangziyi1990/SPLDExtraTrees/blob/main/Figure/Figure2-Scatter.png)
 
