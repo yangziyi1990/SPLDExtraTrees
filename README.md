@@ -18,7 +18,7 @@ If you find this code useful in your research then please cite:
 }
 ```
 
-![](/Users/yangziyi/Documents/Github/SPLDExtraTrees/Figure1_pipeline.png)
+![](https://github.com/yangziyi1990/SPLDExtraTrees/blob/main/Figure1_pipeline.png)
 
 ## Installation
 
