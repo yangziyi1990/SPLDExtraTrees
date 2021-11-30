@@ -24,12 +24,14 @@ If you find this code useful in your research then please cite:
 
 Follow the steps in the defined order to avoid conflicts.
 
-The models.zip file will have to be downloaded and unzipping.
+1. The models.zip file will have to be downloaded and unzipping.
+
 ```bash
 git clone https://github.com/yangziyi1990/SPLDExtraTrees.git
 ```
 
-Create an environment:
+2. Create an environment:
+
 ```bash
 conda env create -f requirements_env.yml
 
@@ -37,6 +39,14 @@ conda activate SPLDExtraTrees
 ```
 
 
+
+## Usage
+
+In this repo, we compare the proposed method (i.e., SPLDExtraTrees) with other two machine learning methods, ExtraTrees and SPLExtraTrees in three scenarios. For the first scenario, we trained the machine learning methods on the Platinum dataset and tested them on the TKI dataset to evaluate the model's extrapolating capability. In the second scenario, a small part of the TKI dataset along with the Platinum dataset was used to train the models, and the rest of the TKI dataset was used for testing. For the third scenario, the machine learning methods were trained and tested on the TKI dataset such that we could evaluate the interpolative capability of the model.
+
+We provide some notebooks called `S*.ipynb` which contains the analysis performed in the manuscript for anyone intersted and who wants to reproduce our results. The analysis was made in python. Input data for the machine learning methods is provided in the file `Data`.
+
+`Results_State.ipynb` can plot scatter plots of the experimental versus calculated $\Delta\Delta$G values.
 
 
 
